@@ -1,0 +1,79 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+body{
+  background-color: rgb(37, 123, 199);
+}
+.calculatorbody{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  width: 400px;
+  border-radius: 10px;
+
+}
+
+table{
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid ;
+}
+td{
+  text-align: center;
+  color: rgba(0, 0, 0, 0.067);
+  border: 1px solid #000000
+;
+}
+input[type="button"]{
+  width: 90px ;
+  height: 80px;
+  color: rgb(0, 0, 0);
+  background-color: #fffafa;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  outline: none;
+  border:none;
+
+
+
+
+}
+
+input[type="button"]:hover{
+  background-color: rgb(111, 240, 25);
+  outline: none;
+  border: none;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+
+}
+
+input[type="text"]{
+width: 400px;
+height: 100px;
+text-align: right;
+margin: 10px;
+padding: 10px;
+outline: none;
+border:none;
+font-size: 30px;
+background-color: #208525;
+
+
+}
+
+/* mediya quary  */
+/* @media only screen and (max-width: 600px) {
+  input[type="button"] {
+    width: 50px;
+    height: 70px;
+
+}
+} */
